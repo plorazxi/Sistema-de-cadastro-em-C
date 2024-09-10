@@ -68,6 +68,7 @@ int main() {
     do{
         printf("%s\n%s", textInit, Opcoes);
         scanf("%d", &opcao);
+        system("cls");
 
         switch (opcao){
             case 1: //cadastro de novo cliente:
@@ -103,14 +104,13 @@ int main() {
                 printf("Cadastro editado com sucesso.\n");
                 break;
             case 5: //Sair do programa:
-                Escrita(clientes, total);
                 printf("Encerrando programa...\n");
                 break;
             default: //Caso de leitura de numero fora do intervalo:
                 printf("Numero nao reconhecido.. tente novamente\n");
                 break;
         }
-
+        Escrita(clientes, total);
     } while(opcao != 5);
 
     return 0;
