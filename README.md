@@ -14,6 +14,12 @@ Além disso, foi desenvolvido para eu poder treinar alguns conceitos recentes, c
 - main.c          --> Código fonte do main.exe
 - leitura.c       --> Código fonte de leitura.exe
 
+> O arquivo leitura.c contém 2 funções para a leitura do DB.csv:
+>
+> - Um usando o `sscanf`, deixando o codigo mais limpo.
+>
+> - E outro usando um aninhamento de loops `for`, feito pois não conhecia a função usada posteriormente.
+
 ## Rodando o Projeto na sua máquina
 Clone o repositório
 ```bash
