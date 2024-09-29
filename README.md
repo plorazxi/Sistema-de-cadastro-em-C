@@ -27,7 +27,7 @@ git clone https://github.com/PLorazx1/Sistema-de-cadastro-em-C.git
 ```
 Execute o main.exe
 ```bash
-./output/main.exe
+./Sistema-de-cadastro-em-C/output/main.exe
 ```
 
 ## Funcionalidades
