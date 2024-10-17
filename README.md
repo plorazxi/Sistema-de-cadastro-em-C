@@ -23,7 +23,7 @@ Além disso, foi desenvolvido para eu poder treinar alguns conceitos recentes, c
 ## Rodando o Projeto na sua máquina
 Clone o repositório
 ```bash
-git clone https://github.com/PLorazx1/Sistema-de-cadastro-em-C.git
+git clone https://github.com/plorazxi/Sistema-de-cadastro-em-C.git
 ```
 Execute o main.exe
 ```bash
